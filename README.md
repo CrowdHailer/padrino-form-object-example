@@ -30,3 +30,6 @@ category optional
   *create test and deveopment database `createdb expenses_test` & `createdb expenses_developmen`*
   *Create Migration `padrino g migration CreateExpense` needs to have fractional and currency to save complex amount*
   *Write setter and getter for amount*
+
+7. Write test for create route
+  *Tests check for redirection and invalid create parameters*
