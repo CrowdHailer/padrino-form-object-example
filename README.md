@@ -10,3 +10,6 @@ limit name to /expense:/
 limit amount
 setup categories wih seed
 category optional
+
+## Steps
+1. Write form test for description
