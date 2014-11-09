@@ -33,3 +33,7 @@ category optional
 
 7. Write test for create route
   *Tests check for redirection and invalid create parameters*
+
+8. Add routes using form
+  *Note mass assignment from form object requires `form.to_hash` private attributes fulfill role of strong params*
+  *Use params with expense key to use form object*
