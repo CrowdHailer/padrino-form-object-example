@@ -12,4 +12,10 @@ class ExpenseFormTest < MiniTest::Test
     assert_equal Money.new(1000, :usd), form[:amount]
   end
 
+  def test_form_invalid_without_valid_currency
+    form = ExpenseForm.new fractional: 100, currency: 'xkx'
+    refute form.valid? 'Form should be invalid'
+    assert form.errors.on(:amount)
+  end
+
 end

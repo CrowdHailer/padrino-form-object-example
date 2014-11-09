@@ -22,3 +22,6 @@ category optional
 
 4. Add amount method to form object
   *Form input consists of currency and fractional, output should be a money object. Avoids primitive obsession*
+
+5. Validate form an an expense amount
+  *setting invalid curreny will result in a failure*
