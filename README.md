@@ -25,3 +25,8 @@ category optional
 
 5. Validate form an an expense amount
   *setting invalid curreny will result in a failure*
+
+6. Persist expense object
+  *create test and deveopment database `createdb expenses_test` & `createdb expenses_developmen`*
+  *Create Migration `padrino g migration CreateExpense` needs to have fractional and currency to save complex amount*
+  *Write setter and getter for amount*
