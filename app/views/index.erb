@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Expenses tracker</title>
+</head>
+<body>
+  <h1>List of expenses</h1>
+  <ol>
+    <%= partial :expense_item, collection: @expenses %>
+  </ol>
+
+  <% form_for Expense.new, '/' do |f| %>
+    <%= f.label :description %>
+    <%= f.text_field :description %>
+    <%= f.label :currency %>
+    <%= f.text_field :currency %>
+    <%= f.label :fractional %>
+    <%= f.number_field :fractional %>
+    <%= f.submit %>
+  <% end %>
+</body>
+</html>

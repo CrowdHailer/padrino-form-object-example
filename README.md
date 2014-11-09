@@ -37,3 +37,7 @@ category optional
 8. Add routes using form
   *Note mass assignment from form object requires `form.to_hash` private attributes fulfill role of strong params*
   *Use params with expense key to use form object*
+
+9. Add index view with create form
+  *Use form builder to provide csrf token*
+  *Value of money object over primitives alows us to use money gem to the full try entering currency 'bhd'*

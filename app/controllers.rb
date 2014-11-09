@@ -1,7 +1,8 @@
 Expenses::App.controllers  do
   
   get :index do
-    ''
+    @expenses = Expense.all
+    render :index
   end
 
   post :index do

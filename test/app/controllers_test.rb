@@ -7,6 +7,13 @@ class ControllersTest < MiniTest::Test
     end
   end
 
+  def test_index_page_shows_expense
+    Expense.create description: 'First expense', amount: Money.new(12, 'eur')
+    get '/'
+    assert last_response.ok?, 'Response should be ok'
+    assert_includes last_response.body, 'First expense'
+  end
+
   def test_create_method_adds_expense_to_database
     assert Expense.empty?
     post '/', expense: {
