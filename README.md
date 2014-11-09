@@ -19,3 +19,6 @@ category optional
 
 3. Write test for expense amount
   *Use money gem to allow many currencies*
+
+4. Add amount method to form object
+  *Form input consists of currency and fractional, output should be a money object. Avoids primitive obsession*
