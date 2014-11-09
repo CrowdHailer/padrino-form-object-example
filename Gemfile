@@ -18,6 +18,7 @@ gem 'erubis', '~> 2.7.0'
 gem 'pg'
 gem 'sequel'
 gem 'virtus'
+gem 'money'
 
 # Test requirements
 gem 'minitest', :require => 'minitest/autorun', :group => 'test'

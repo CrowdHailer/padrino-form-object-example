@@ -16,3 +16,6 @@ category optional
 
 2. Add description attribute to form object
   *Install Virtus Gem provides DSL for form objects*
+
+3. Write test for expense amount
+  *Use money gem to allow many currencies*
