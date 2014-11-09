@@ -19,6 +19,7 @@ gem 'pg'
 gem 'sequel'
 gem 'virtus'
 gem 'money'
+gem 'veto'
 
 # Test requirements
 gem 'minitest', :require => 'minitest/autorun', :group => 'test'

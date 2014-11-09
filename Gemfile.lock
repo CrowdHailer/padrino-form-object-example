@@ -88,6 +88,7 @@ GEM
       thread_safe (~> 0.1)
     url_mount (0.2.1)
       rack
+    veto (1.0.1)
     virtus (1.0.3)
       axiom-types (~> 0.1)
       coercible (~> 1.0)
@@ -106,4 +107,5 @@ DEPENDENCIES
   rack-test
   rake
   sequel
+  veto
   virtus
