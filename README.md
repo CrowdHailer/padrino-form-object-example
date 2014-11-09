@@ -13,3 +13,6 @@ category optional
 
 ## Steps
 1. Write form test for description
+
+2. Add description attribute to form object
+  *Install Virtus Gem provides DSL for form objects*

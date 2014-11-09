@@ -17,6 +17,7 @@ gem 'rake'
 gem 'erubis', '~> 2.7.0'
 gem 'pg'
 gem 'sequel'
+gem 'virtus'
 
 # Test requirements
 gem 'minitest', :require => 'minitest/autorun', :group => 'test'
